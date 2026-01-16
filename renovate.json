@@ -1,7 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
-		"config:best-practices",
 		"helpers:githubDigestChangelogs"
 	],
 	"git-submodules": {
@@ -11,6 +10,9 @@
 		{
 			"matchPackageNames": [
 				"https://github.com/renovatebot/renovate.git"
+			],
+			"matchManagers": [
+				"git-submodules"
 			],
 			"sourceUrl": "https://github.com/renovatebot/renovate.git"
 		}
