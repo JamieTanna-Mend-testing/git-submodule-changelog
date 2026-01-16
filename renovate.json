@@ -5,16 +5,5 @@
 	],
 	"git-submodules": {
 		"enabled": true
-	},
-	"packageRules": [
-		{
-			"matchPackageNames": [
-				"https://github.com/renovatebot/renovate.git"
-			],
-			"matchManagers": [
-				"git-submodules"
-			],
-			"sourceUrl": "https://github.com/renovatebot/renovate.git"
-		}
-	]
+	}
 }
